@@ -1,0 +1,109 @@
+{
+    "Type": "Door",
+    "Data": {
+        "styles": [
+            {
+                "id": "ds1",
+                "type": "Traditional"
+            },
+            {
+                "id": "ds2",
+                "type": "Classic"
+            },
+            {
+                "id": "ds1",
+                "type": "Mordern"
+            },
+            {
+                "id": "ds1",
+                "type": "Artistic"
+            }
+        ],
+        "shape": [
+            {
+                "id": "Dsh1",
+                "type": "Rectangular"
+            },
+            {
+                "id": "Dsh2",
+                "type": "Arched"
+            }
+        ],
+        "material": [
+            {
+                "id": "dm1",
+                "type": "Wood"
+            },
+            {
+                "id": "dm2",
+                "type": "Metal"
+            },
+            {
+                "id": "dm3",
+                "type": "Aluminium"
+            },
+            {
+                "id": "dm4",
+                "type": "Glass"
+            }
+        ],
+        "location": [
+            {
+                "id": "dl1",
+                "type": "Main Door"
+            },
+            {
+                "id": "dl1",
+                "type": "Interior Door"
+            },
+            {
+                "id": "dl1",
+                "type": "Back Door"
+            },
+            {
+                "id": "dl1",
+                "type": "Balcony Door"
+            }
+        ],
+        "shutter": [
+            {
+                "id": "dshutter1",
+                "type": "single Shutter"
+            },
+            {
+                "id": "dshutter2",
+                "type": "Double Shutter"
+            },
+            {
+                "id": "dshutter3",
+                "type": "Multi Shutter"
+            }
+        ],
+        "operation": [
+            {
+                "id": "dOperation1",
+                "type": "hinged"
+            },
+            {
+                "id": "dOperation2",
+                "type": "Sliding"
+            },
+            {
+                "id": "dOperation3",
+                "type": "Folding"
+            },
+            {
+                "id": "dOperation4",
+                "type": "Sliding Folding"
+            },
+            {
+                "id": "dOperation5",
+                "type": "Pocket"
+            },
+            {
+                "id": "dOperation1",
+                "type": "Pivoted"
+            }
+        ]
+    }
+}

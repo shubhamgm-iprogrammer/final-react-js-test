@@ -1,0 +1,87 @@
+{
+    "Type": "Gates",
+    "data": {
+        "styles": [
+            {
+                "id": "GStyles1",
+                "type": "Linear"
+            },
+            {
+                "id": "CStyles2",
+                "type": "Curved"
+            },
+            {
+                "id": "CStyles3",
+                "type": "Combination"
+            },
+            {
+                "id": "CStyles4",
+                "type": "Unique"
+            }
+        ],
+        "accessibility": [
+            {
+                "id": "Gaccessibility1",
+                "type": "pedestrain"
+            },
+            {
+                "id": "Gaccessibility2",
+                "type": "Vehicular"
+            },
+            {
+                "id": "Gaccessibility3",
+                "type": "Vehicular & pedestrain"
+            }
+        ],
+        "Material": [
+            {
+                "id": "Gmaterial1",
+                "type": "MildSteel"
+            },
+            {
+                "id": "GMaterial2",
+                "type": "Wrought Iron"
+            },
+            {
+                "id": "GMaterial2",
+                "type": "Stainless Steel"
+            },
+            {
+                "id": "GMaterial2",
+                "type": "Aluminium"
+            },
+            {
+                "id": "GMaterial2",
+                "type": "Wood"
+            },
+            {
+                "id": "GMaterial2",
+                "type": "Composite"
+            }
+        ],
+        "Height": [
+            {
+                "id": "Gheight1",
+                "type": "Full Height(above 7 feet)"
+            },
+            {
+                "id": "Gheight2",
+                "type": "Part height(5-6 feet)"
+            }
+        ],
+        "Operation": [
+            {
+                "id": "Goperation1",
+                "type": "Hiding"
+            },
+            {
+                "id": "Goperation2",
+                "type": "Sliding"
+            },
+            {
+                "id": "Goperation3",
+                "type": "Pivoted"
+            }
+        ]
+    }
+}

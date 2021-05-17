@@ -1,0 +1,4 @@
+export const ADDSTYLES ="ADD_STYLES"
+export const LOADING ="LOADING"
+export const REMOVESTYLES ="REMOVE_STYLES"
+export const UPDATESTYLES="UPDATE_STYLES"

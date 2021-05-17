@@ -1,0 +1,47 @@
+{
+    "Type": "Grill",
+    "data": {
+        "styles": [
+            {
+                "id": "GStyles1",
+                "type": "Linear"
+            },
+            {
+                "id": "CStyles2",
+                "type": "Curved"
+            },
+            {
+                "id": "CStyles3",
+                "type": "Combination"
+            },
+            {
+                "id": "CStyles4",
+                "type": "Unique"
+            }
+        ],
+        "grilltype": [
+            {
+                "id": "GType1",
+                "type": "Box-Girll"
+            },
+            {
+                "id": "GType2",
+                "type": "Inset Grill"
+            }
+        ],
+        "material": [
+            {
+                "id": "Gmaterial1",
+                "type": "Mild Steel"
+            },
+            {
+                "id": "Gmaterial2",
+                "type": "Wrought Iron"
+            },
+            {
+                "id": "Gmaterial2",
+                "type": "Steel Cable"
+            }
+        ]
+    }
+}

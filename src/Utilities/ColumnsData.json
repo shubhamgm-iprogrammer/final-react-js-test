@@ -1,0 +1,49 @@
+{
+    "Type": "Columns",
+    "data": {
+        "styles": [
+            {
+                "id": "Cstyles1",
+                "type": "Traditional"
+            },
+            {
+                "id": "Cstyles2",
+                "type": "Classic"
+            },
+            {
+                "id": "Cstyles3",
+                "type": "Mordern"
+            },
+            {
+                "id": "Cstyles4",
+                "type": "Unique"
+            }
+        ],
+        "Material": [
+            {
+                "id": "CMaterial1",
+                "type": "Brick"
+            },
+            {
+                "id": "CMaterial2",
+                "type": "Stone"
+            },
+            {
+                "id": "CMaterial3",
+                "type": "Wood"
+            },
+            {
+                "id": "CMaterial4",
+                "type": "Metal"
+            },
+            {
+                "id": "CMaterial5",
+                "type": "Concrete"
+            },
+            {
+                "id": "CMaterial6",
+                "type": "Paint Plaster"
+            }
+        ]
+    }
+}
