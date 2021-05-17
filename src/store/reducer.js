@@ -65,7 +65,3 @@ export const reducer = (state = initialState,action) => {
 
     }
 }
-
-// state.styles.map((item) => (
-//     item.uniqueid===action.payload.uniqueid ? {...item, styles:action.payload}: item
-// ))
