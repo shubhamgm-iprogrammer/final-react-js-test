@@ -32,11 +32,11 @@ export default ({onSaveHandler}) => {
         <Dropdown name="material" onChange={handlechange} Label="Material" data={GatesData.data.Material}/>
         </Col>
         <Col className="my-2" xs= "9" md= "6">
-        <Dropdown name="Height" onChange={handlechange} Label="Height" data={GatesData.data.Height}/>
+        <Dropdown name="height" onChange={handlechange} Label="Height" data={GatesData.data.Height}/>
          </Col>
          </>
         <Col className="my-2" xs= "9"md= "6">
-        <Dropdown name="Operation" onChange={handlechange} Label="Operation" data={GatesData.data.Operation}/>
+        <Dropdown name="operation" onChange={handlechange} Label="Operation" data={GatesData.data.Operation}/>
          </Col>
         </Row>
         </Form>
