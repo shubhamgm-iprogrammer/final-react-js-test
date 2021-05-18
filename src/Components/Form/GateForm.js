@@ -24,7 +24,7 @@ export default ({onSaveHandler}) => {
         <Dropdown  name="style" onChange={handlechange}  Label="style" data={GatesData.data.styles}/>
         </Col>
         <Col className="my-2" xs={9} md={6}>
-        <Dropdown name="accesibility" onChange={handlechange} Label="Accessibility" data={GatesData.data.accessibility}/>
+        <Dropdown name="accessibility" onChange={handlechange} Label="Accessibility" data={GatesData.data.accessibility}/>
         </Col>
         </>
         <>
