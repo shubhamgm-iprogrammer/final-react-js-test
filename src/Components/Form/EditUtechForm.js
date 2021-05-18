@@ -21,14 +21,11 @@ const EditUtechForm = () => {
   const queryParams = new URLSearchParams(location);
   const UniqueId = queryParams.get("search").replace("?", "");
 
-  console.log("UniqueId on Edit screen>>>>", UniqueId);
   const [values, handlechange] = useForm({});
   const loading = useSelector((state) => state.loading);
   const [edit, setEdit] = useState(false);
   const [updatedFormValues, setUpdatedFormValues] = useState(null);
-  const [isDeleted,setIsDeleted] = useState(false)
 
-  console.log("i am stylesSubmitted>>>>", stylesSubmited);
   const currentItemObj = stylesSubmited.filter((item) => {
     return item.unique_id === UniqueId;
   });
@@ -82,7 +79,6 @@ const EditUtechForm = () => {
     }
   };
 
-  console.log("after excluding>>>>", updatedFormValues);
 
   const updateHandler = async () => {
     const updateFormData = apiresquests(
@@ -117,12 +113,10 @@ const EditUtechForm = () => {
       .then((response) => {
         console.log("after update>>>", response.status);
         if (response.status === 200) {
-          setIsDeleted(true)
           dispatch(removeStyle(UniqueId));
         }
       })
       .catch((error) => {
-        setIsDeleted(false)
         console.log(error);
       });
 
