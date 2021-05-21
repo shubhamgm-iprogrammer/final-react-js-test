@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import Input from "../../Ui/Inputs/Input";
-import { useLocation } from "react-router-dom";
+import { useLocation,useHistory } from "react-router-dom";
 import { useForm } from "../../hooks/use-form";
 import BootstrapButton from "../../Ui/Button/BootstrapButton";
 import DeleteIcon from "../../assets/deleteIcon";
@@ -20,7 +20,7 @@ const EditUtechForm = () => {
   const location = useLocation();
   const queryParams = new URLSearchParams(location);
   const UniqueId = queryParams.get("search").replace("?", "");
-
+  const history = useHistory()
   const [values, handlechange] = useForm({});
   const loading = useSelector((state) => state.loading);
   const [edit, setEdit] = useState(false);
@@ -44,6 +44,8 @@ const EditUtechForm = () => {
       delete item.element_type &&
       delete item.created_at &&
       delete item.updated_at &&
+      delete item.created_by &&
+      delete item.updated_by &&
       delete item._id &&
       delete item.__v
     );
@@ -94,6 +96,7 @@ const EditUtechForm = () => {
         console.log("uniqueid in updated form>>>", updatedFormValues.unique_id);
         if (response.status === 200) {
           dispatch(updateStyle(updatedFormValues));
+          history.push("/List")
         }
       })
       .catch((error) => {

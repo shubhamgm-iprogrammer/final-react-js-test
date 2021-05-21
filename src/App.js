@@ -4,6 +4,7 @@ import UtechForm from "./Components/Form/UtechForm";
 import {Switch,Route,Redirect,BrowserRouter as Router} from "react-router-dom"
 import React,{useState} from "react";
 import EditUtechForm from "./Components/Form/EditUtechForm";
+import List from "./Components/List/List";
 
 function App() {
 
@@ -30,6 +31,11 @@ function App() {
         <BootstrapCard style={{width:"70%",margin:"10% auto"}}>
           <EditUtechForm/>
         </BootstrapCard>
+        </Route>
+
+        <Route path="/List" exact>
+          
+          <List/>
         </Route>
         <Route path="*">
           <p className="text-danger  text-center text-uppercase display-3">Page Not Found</p>
